@@ -1,0 +1,4 @@
+"C:\Users\u16172\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/MinGW/bin/mingw32-gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/bin/mingw32-g++.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\u16172\CLionProjects\MatrixEsparsa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/u16172/CLionProjects/MatrixEsparsa/cmake-build-debug

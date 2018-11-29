@@ -1,0 +1,3 @@
+C:/Users/u16172/CLionProjects/MatrixEsparsa/cmake-build-debug/CMakeFiles/MatrixEsparsa.dir
+C:/Users/u16172/CLionProjects/MatrixEsparsa/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/u16172/CLionProjects/MatrixEsparsa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
