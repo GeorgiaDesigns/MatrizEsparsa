@@ -20,6 +20,7 @@ public:
     void setinfo(T);
 
     explicit Node(const T &info);
+    Node(const T &info, int coluna);
 };
 
 #include "Node.inl"

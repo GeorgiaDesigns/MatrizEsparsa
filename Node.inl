@@ -69,6 +69,13 @@ Node<T>::Node(const T &info) {
     this->left = nullptr;
     this->right = nullptr;
 }
+template<typename T>
+Node<T>::Node(const T &info, int coluna) {
+    this->info = info;
+    this->left = nullptr;
+    this->right = nullptr;
+    //faz coluna
+}
 
 
 

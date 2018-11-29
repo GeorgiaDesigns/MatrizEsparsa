@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MatrixEsparsa.dir/main.cpp.obj"
-  "CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.obj"
   "MatrixEsparsa.pdb"
   "MatrixEsparsa.exe"
   "MatrixEsparsa.exe.manifest"

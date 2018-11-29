@@ -1,52 +1,59 @@
 
 template<typename T>
-int matriz<T>::getValorPadrao() {
+T Matriz<T>::getValorPadrao() {
     return this->valorPadrao;
 }
 
 template<typename T>
-int matriz<T>::getLinhas() {
+int Matriz<T>::getLinhas() {
     return this->linhas;
 }
 
 template<typename T>
-int matriz<T>::getColunas() {
+int Matriz<T>::getColunas() {
     return this->colunas;
 }
 
 template<typename T>
-void matriz<T>::setValorPadrao(int v) {
+void Matriz<T>::setValorPadrao(const T &vp) {
     this->valorPadrao = v;
 }
 
 template<typename T>
-void matriz<T>::setLinhas(int m) {
+void Matriz<T>::setLinhas(int m) {
     this->linhas = m;
 }
 
 template<typename T>
-void matriz<T>::setColunas(int n) {
+void Matriz<T>::setColunas(int n) {
     this->colunas = n;
 }
 
 template<typename T>
-matriz<T>::matriz(int m, int n) {
+Matriz<T>::Matriz(int m, int n) {
     setLinhas(m);
     setColunas(n);
 }
 
 template<typename T>
-matriz<T>::matriz(int m, int n, int valorPadrao) {
+Matriz<T>::Matriz(int m, int n, const T &valorPadrao) {
 
 }
 
 template<typename T>
-void matriz<T>::atribuirValor(const T &data, int m, int n) {
+void Matriz<T>::inserirValor(const T &data, int m, int n) {
+    if (m>this->linhas && n> this->colunas)
+        throw "Número de linha/coluna excede limite existente. Não foi possível inserir";
+    if (data = this->valorPadrao)
+        return ;
+    else
+        //procurar nó da linha
+        if 
 
 }
 
 template<typename T>
-T matriz<T>::acessarValor() {
+T Matriz<T>::acessarValor() {
     return nullptr;
 }
 

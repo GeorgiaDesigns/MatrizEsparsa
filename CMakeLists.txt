@@ -3,4 +3,4 @@ project(MatrixEsparsa)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MatrixEsparsa main.cpp matriz.h Elementos.cpp Elementos.h)
+add_executable(MatrixEsparsa main.cpp Matriz.h)

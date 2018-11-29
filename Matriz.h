@@ -1,28 +1,29 @@
 #ifndef MATRIXESPARSA_MATRIZ_H
 #define MATRIXESPARSA_MATRIZ_H
 
-#include "tree.h" // importa a árvore AVL
+#include "Tree.h" // importa a árvore AVL
 
 template <typename T>
-class matriz {
+class Matriz {
 private:
-    int valorPadrao{};
+    T valorPadrao;
     //var ponteiro para ponteiros
-    int linhas{};
-    int colunas{};
+    int linhas;
+    int colunas;
 public:
-    int getValorPadrao();
+    T getValorPadrao();
     int getLinhas();
     int getColunas();
 
-    void setValorPadrao(int);
+    void setValorPadrao(const T);
     void setLinhas(int);
     void setColunas(int);
 
-    matriz(int m, int n);
-    matriz(int m, int n , int valorPadrao);  // construtor alternativo caso queira definir o valor padrao
-    void atribuirValor(const T &data, int m, int n);
+    Matriz(int m, int n);
+    Matriz(int m, int n , int valorPadrao);  // construtor alternativo caso queira definir o valor padrao
+    void inserirValor(const T &data, int m, int n);
     T acessarValor();   // não tenho certeza se preciso acessar a informação, passando as coordenadas, ou pegar as coordenadas passando a info..
+
 
 };
 

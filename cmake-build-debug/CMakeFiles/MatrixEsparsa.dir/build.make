@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\u16172\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\u16172\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\183.4284.156\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Users\u16172\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = C:\Users\u16172\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\183.4284.156\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\u16172\CLionProjects\MatrixEsparsa
+CMAKE_SOURCE_DIR = Z:\TED\MatrizEsparsa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug
+CMAKE_BINARY_DIR = Z:\TED\MatrizEsparsa\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MatrixEsparsa.dir/depend.make
@@ -58,45 +58,30 @@ include CMakeFiles/MatrixEsparsa.dir/flags.make
 
 CMakeFiles/MatrixEsparsa.dir/main.cpp.obj: CMakeFiles/MatrixEsparsa.dir/flags.make
 CMakeFiles/MatrixEsparsa.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MatrixEsparsa.dir/main.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatrixEsparsa.dir\main.cpp.obj -c C:\Users\u16172\CLionProjects\MatrixEsparsa\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\TED\MatrizEsparsa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MatrixEsparsa.dir/main.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatrixEsparsa.dir\main.cpp.obj -c Z:\TED\MatrizEsparsa\main.cpp
 
 CMakeFiles/MatrixEsparsa.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatrixEsparsa.dir/main.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\u16172\CLionProjects\MatrixEsparsa\main.cpp > CMakeFiles\MatrixEsparsa.dir\main.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E Z:\TED\MatrizEsparsa\main.cpp > CMakeFiles\MatrixEsparsa.dir\main.cpp.i
 
 CMakeFiles/MatrixEsparsa.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatrixEsparsa.dir/main.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\u16172\CLionProjects\MatrixEsparsa\main.cpp -o CMakeFiles\MatrixEsparsa.dir\main.cpp.s
-
-CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.obj: CMakeFiles/MatrixEsparsa.dir/flags.make
-CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.obj: ../Elementos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MatrixEsparsa.dir\Elementos.cpp.obj -c C:\Users\u16172\CLionProjects\MatrixEsparsa\Elementos.cpp
-
-CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\u16172\CLionProjects\MatrixEsparsa\Elementos.cpp > CMakeFiles\MatrixEsparsa.dir\Elementos.cpp.i
-
-CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\u16172\CLionProjects\MatrixEsparsa\Elementos.cpp -o CMakeFiles\MatrixEsparsa.dir\Elementos.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S Z:\TED\MatrizEsparsa\main.cpp -o CMakeFiles\MatrixEsparsa.dir\main.cpp.s
 
 # Object files for target MatrixEsparsa
 MatrixEsparsa_OBJECTS = \
-"CMakeFiles/MatrixEsparsa.dir/main.cpp.obj" \
-"CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.obj"
+"CMakeFiles/MatrixEsparsa.dir/main.cpp.obj"
 
 # External object files for target MatrixEsparsa
 MatrixEsparsa_EXTERNAL_OBJECTS =
 
 MatrixEsparsa.exe: CMakeFiles/MatrixEsparsa.dir/main.cpp.obj
-MatrixEsparsa.exe: CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.obj
 MatrixEsparsa.exe: CMakeFiles/MatrixEsparsa.dir/build.make
 MatrixEsparsa.exe: CMakeFiles/MatrixEsparsa.dir/linklibs.rsp
 MatrixEsparsa.exe: CMakeFiles/MatrixEsparsa.dir/objects1.rsp
 MatrixEsparsa.exe: CMakeFiles/MatrixEsparsa.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MatrixEsparsa.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=Z:\TED\MatrizEsparsa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MatrixEsparsa.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MatrixEsparsa.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +94,6 @@ CMakeFiles/MatrixEsparsa.dir/clean:
 .PHONY : CMakeFiles/MatrixEsparsa.dir/clean
 
 CMakeFiles/MatrixEsparsa.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\u16172\CLionProjects\MatrixEsparsa C:\Users\u16172\CLionProjects\MatrixEsparsa C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug\CMakeFiles\MatrixEsparsa.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" Z:\TED\MatrizEsparsa Z:\TED\MatrizEsparsa Z:\TED\MatrizEsparsa\cmake-build-debug Z:\TED\MatrizEsparsa\cmake-build-debug Z:\TED\MatrizEsparsa\cmake-build-debug\CMakeFiles\MatrixEsparsa.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MatrixEsparsa.dir/depend
 

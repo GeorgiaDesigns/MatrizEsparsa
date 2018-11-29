@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\u16172\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\u16172\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\183.4284.156\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Users\u16172\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = C:\Users\u16172\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\183.4284.156\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\u16172\CLionProjects\MatrixEsparsa
+CMAKE_SOURCE_DIR = Z:\TED\MatrizEsparsa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug
+CMAKE_BINARY_DIR = Z:\TED\MatrizEsparsa\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Users\u16172\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	C:\Users\u16172\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\183.4284.156\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Users\u16172\AppData\Roaming\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\u16172\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\183.4284.156\bin\cmake\win\bin\cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug\CMakeFiles C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\TED\MatrizEsparsa\cmake-build-debug\CMakeFiles Z:\TED\MatrizEsparsa\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\u16172\CLionProjects\MatrixEsparsa\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start Z:\TED\MatrizEsparsa\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,33 +122,6 @@ MatrixEsparsa/fast:
 	$(MAKE) -f CMakeFiles\MatrixEsparsa.dir\build.make CMakeFiles/MatrixEsparsa.dir/build
 .PHONY : MatrixEsparsa/fast
 
-Elementos.obj: Elementos.cpp.obj
-
-.PHONY : Elementos.obj
-
-# target to build an object file
-Elementos.cpp.obj:
-	$(MAKE) -f CMakeFiles\MatrixEsparsa.dir\build.make CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.obj
-.PHONY : Elementos.cpp.obj
-
-Elementos.i: Elementos.cpp.i
-
-.PHONY : Elementos.i
-
-# target to preprocess a source file
-Elementos.cpp.i:
-	$(MAKE) -f CMakeFiles\MatrixEsparsa.dir\build.make CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.i
-.PHONY : Elementos.cpp.i
-
-Elementos.s: Elementos.cpp.s
-
-.PHONY : Elementos.s
-
-# target to generate assembly for a file
-Elementos.cpp.s:
-	$(MAKE) -f CMakeFiles\MatrixEsparsa.dir\build.make CMakeFiles/MatrixEsparsa.dir/Elementos.cpp.s
-.PHONY : Elementos.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -185,9 +158,6 @@ help:
 	@echo ... MatrixEsparsa
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Elementos.obj
-	@echo ... Elementos.i
-	@echo ... Elementos.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
